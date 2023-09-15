@@ -21,7 +21,7 @@ namespace ElwaldeEquipment.Data
             if (dataInitialized)
             {
                 var client = new HttpClient();
-                var json = await client.GetStringAsync("https://honda99.github.io/ElwaldeMedicalV-2/partners.json");
+                var json = await client.GetStringAsync("https://honda99.github.io/ElwaldeEquipment/partners.json");
              
                 var result = JsonConvert.DeserializeObject<List<Partners>>(json);
                 if (result is null)

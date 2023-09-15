@@ -29,7 +29,7 @@ namespace ElwaldeEquipment.Data
             if (dataInitialized)
             {
                 var client =new HttpClient();       
-                var json = await client.GetStringAsync("https://honda99.github.io/ElwaldeMedicalV-2/equipments.json");
+                var json = await client.GetStringAsync("https://honda99.github.io/ElwaldeEquipment/equipments.json");
                 // Deserialize the JSON data into a dictionary of equipments
                 var equipments = JsonConvert.DeserializeObject<Dictionary<string, Equipment>>(json);
                 if (equipments is null)
