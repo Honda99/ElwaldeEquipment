@@ -23,7 +23,7 @@ namespace ElwaldeEquipment.Data
         public Dictionary<string, Dictionary<string,string>> Parameters = new Dictionary<string, Dictionary<string,string>>();
         public string[] Confugitation { get; set; } = Array.Empty<string>();
 
-        public Uri CardImageUrl => new Uri($"images/cards/{Name}.png", UriKind.RelativeOrAbsolute);
+        public Uri CardImageUrl => new Uri($"images/cards/{Name}.png", UriKind.Absolute);
         public Uri BannerImageUrl => new Uri($"images/banners/{Name} Banner.png", UriKind.Relative);
     }
 }
