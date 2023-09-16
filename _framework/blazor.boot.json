@@ -9,7 +9,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "ElwaldeEquipment.dll": "sha256-4ililPfxKPFzROciNMRtn0watTIL7CBLxzalFgpytog=",
+      "ElwaldeEquipment.dll": "sha256-aa5zfgmF+dNczSu7f0\/q5MRifuKa+j9UTU7AVifXbpI=",
       "Microsoft.AspNetCore.Components.dll": "sha256-8X5ELvyg\/AHh9KN0bbSg3IjJAbMdRdumq009DbuFZZA=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-3j8dhKIT5U\/B+XY+MZ28EPqtHnvPfF0uT53cDb8sSqk=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-J9EuuxM9JkR8XJXotbUf5DmOhytqVhu12v8S7Ezfpqk=",
