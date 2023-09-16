@@ -1,7 +1,8 @@
 ﻿@using ElwaldeEquipment.Data;
+@inject HttpClient Http
 
 <div class="equip-card">
-    <img src="@Equipment!.CardImageUrl" alt="..." />
+    <img src="@Http.BaseAddress/@Equipment!.CardImageUrl" alt="..." />
     <div class="equip-card-body">
         <h4 class="equip-card-name">@Equipment.Name</h4>
         <h5 class="equip-card-source">@Equipment.SourceShort</h5>

@@ -1,7 +1,8 @@
 ﻿@using ElwaldeEquipment.Data;
 @inject IEquipmentsStore equipmentStore;
+@inject HttpClient Http;
 <div class="logo">
- <img src="images/ElwaldeLogo.png" width="150" height="150" alt="..."/>
+ <img src="@Http.BaseAddress/images/ElwaldeLogo.png" width="150" height="150" alt="..."/>
 </div>
 <div class="equip">
    
@@ -20,7 +21,7 @@
         </div>
         <div class="prod-img-container">
             <div class="equip-banner">
-                <img  heigth="300" width="500" src="@Equipment.CardImageUrl" />
+                <img  heigth="300" width="500" src="@Http.BaseAddress/@Equipment.CardImageUrl" />
             </div>
         
          <div class="detail-img-container">
@@ -29,7 +30,7 @@
                 {
                     if (imgCount > 0)
                     {
-                        <img src="@detail.Imgurl" height="100" width="125"  alt="..." />
+                        <img src="@Http.BaseAddress@detail.Imgurl" height="100" width="125"  alt="..." />
                     }
                    
                     imgCount--;

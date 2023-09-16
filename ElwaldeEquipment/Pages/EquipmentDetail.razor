@@ -1,8 +1,9 @@
 ﻿@page "/equipmentdetail/{equipId}"
 @using ElwaldeEquipment.Data;
-@inject IEquipmentsStore equipmentStore
+@inject IEquipmentsStore equipmentStore;
+@inject HttpClient Http;
 
-<a class="back-link" href="mainpage">←Back to all equipments</a>
+<a class="back-link" href="@Http.BaseAddress/mainpage">←Back to all equipments</a>
 
 <EquipmentDetOne Equipment="equipment"/>
 
