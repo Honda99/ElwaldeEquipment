@@ -30,7 +30,7 @@
                 {
                     if (imgCount > 0)
                     {
-                        <img src="@Http.BaseAddress@detail.Imgurl" height="100" width="125"  alt="..." />
+                        <img src="@Http.BaseAddress/@detail.Imgurl" height="100" width="125"  alt="..." />
                     }
                    
                     imgCount--;
@@ -140,7 +140,7 @@
 
                                 var desc = @Equipment.ProductDetails[i].Detail.Split("\n");
                                 <div class="detail-container">
-                                    <div class="detail-img"><img src="@Equipment.ProductDetails[i].Imgurl" width="200" height="200" alt="..." /></div>
+                                    <div class="detail-img"><img src="@Http.BaseAddress/@Equipment.ProductDetails[i].Imgurl" width="200" height="200" alt="..." /></div>
                                     <div class="detail-desc">
                                         <h3>@Equipment.ProductDetails[i].Name</h3>
                                         <hr />
