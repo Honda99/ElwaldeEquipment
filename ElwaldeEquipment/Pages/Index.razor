@@ -1,6 +1,7 @@
 ﻿@page "/"
 @page "/mainpage"
 @inject IEquipmentsStore equipmentStore;
+@inject HttpClient Http;
 @using ElwaldeEquipment.Data;
 @using ElwaldeEquipment.Model;
 @using static ElwaldeEquipment.Data.EnumClass;
@@ -27,7 +28,7 @@
             @foreach (var equipment in equipments)
             {
                 <li class="equip-list-item">
-                    <a href="equipmentdetail/@equipment.Id">
+                    <a href="@Http.BaseAddress/equipmentdetail/@equipment.Id">
                         <EquipmentCard Equipment="equipment" />
                     </a>
                 </li>
