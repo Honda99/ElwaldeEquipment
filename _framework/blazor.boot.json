@@ -9,7 +9,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "ElwaldeEquipment.dll": "sha256-HwWo2cRFWcI60dE5yUFLh17YwcZxLoBx4npvjkmzA34=",
+      "ElwaldeEquipment.dll": "sha256-JHQXjhRfjSxOQGUXKNSikSDJ1o5puVfs2McJC4ZDCEI=",
       "Microsoft.AspNetCore.Components.dll": "sha256-8X5ELvyg\/AHh9KN0bbSg3IjJAbMdRdumq009DbuFZZA=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-3j8dhKIT5U\/B+XY+MZ28EPqtHnvPfF0uT53cDb8sSqk=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-J9EuuxM9JkR8XJXotbUf5DmOhytqVhu12v8S7Ezfpqk=",
@@ -46,7 +46,7 @@
       "System.Linq.dll": "sha256-gIAgy1WYOE6aJZA4A8XV+xexsQS1kiK\/B1n9YwXffZY=",
       "System.Linq.Expressions.dll": "sha256-DCBok1wcNPOidzEYvzHl2lQaqGzPKT3X9wxcNp16fI4=",
       "System.Memory.dll": "sha256-R4U8HXgIBBNL0Zh3NkkL1fAhkW8QO+HV7LfIJ0PQjw0=",
-      "System.Net.Http.dll": "sha256-Pm1Nq2csMxUhzKV+ma6i9CDZw2g3kb2Dd0+RFmn8ivU=",
+      "System.Net.Http.dll": "sha256-CNhZrSYUyjj5\/Lp0qNTXRQaoWaFI5j5BK\/RkoMTRsPg=",
       "System.Net.Http.Json.dll": "sha256-rvWE2zlx8+shjU0gFFbRtTki7qeLCanpCeyM8Dkp4Q4=",
       "System.Net.Mail.dll": "sha256-H6aSWnbFwQ70SaneR8Rm1LmsZlqVGwP6uWmsEp3ofd8=",
       "System.Net.Primitives.dll": "sha256-MH0PBwDYUonqwhYsVEMGo7LyJVTUjfQHfOPBr0Ef7eM=",
